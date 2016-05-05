@@ -1,0 +1,7 @@
+name = Privacy Policy
+description = Privacy policy theme
+core = 7.x
+base theme = apricot_theme
+
+
+stylesheets[screen][]      = css/styles.css

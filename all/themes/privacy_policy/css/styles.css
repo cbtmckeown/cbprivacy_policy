@@ -1,0 +1,164 @@
+.section-box {
+  margin: 0px 5px 30px 5px;
+  height: 300px;
+}
+
+.center {
+  text-align: center
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.learn-more-button {
+  margin-top: 10px;
+  border: 1px solid #FFF;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.learn-more-button a {
+  color: #FFF;
+}
+
+.learn-more-button a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+#intro {
+  margin:0px 5px 30px 5px;
+}
+
+#data-privacy-overview {
+  /* fallback */
+  background-color: #3995d1;
+  background-repeat: repeat-y;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right top, left top, from(#2e78a8), to(#3995d1));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #2e78a8, #3995d1);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #2e78a8, #3995d1);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #2e78a8, #3995d1);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #2e78a8, #3995d1);
+}
+
+#privacy-statement {
+  /* fallback */
+  background-color: #028c6d;
+  background-repeat: repeat-y;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right top, left top, from(#028c6d), to(#02ae88));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #028c6d, #02ae88);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #028c6d, #02ae88);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #028c6d, #02ae88);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #028c6d, #02ae88);
+}
+
+#program-specific {
+  /* fallback */
+  background-color: #934888;
+  background-repeat: repeat-y;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right top, left top, from(#934888), to(#a35098));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #934888, #a35098);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #934888, #a35098);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #934888, #a35098);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #934888, #a35098);
+}
+
+#sub-header-2{
+  padding: 10px 0px;
+  /* fallback */
+  background-color: #3995d1;
+  background-repeat: repeat-y;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#2281bc), to(#22a9bc));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #2281bc, #22a9bc);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #2281bc, #22a9bc);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #2281bc, #22a9bc);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #2281bc, #22a9bc);
+}
+
+#sub-header-2 h1{
+  margin-top:0px;
+}
+
+.container ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+  margin: 0px 0px;
+}
+
+.container #main-content h1 {
+  margin-top: -5px;
+}
+
+.container .menu {
+  padding-left: 0px;
+}
+
+.container .menu li {
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 1px solid #d1d1d1;
+  border-left: 4px solid #FFF;
+  padding: 5px;
+}
+
+.container .menu li:last-child {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.container .menu li.active-trail {
+  border-left: 4px solid #00539b;
+}
+
+.container .menu li.active-trail a {
+  color: #00539b;
+}
+
+.container .menu li a {
+  color: #666564;
+}
+
+#breadcrumbs {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
