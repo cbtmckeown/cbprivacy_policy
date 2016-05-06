@@ -26,8 +26,12 @@ function privacy_policy_preprocess_page(&$vars) {
     }
   }
   $node = menu_get_object();
-  if ($node) {
-    $vars['breadcrumbs'] = l('College Board Privacy Policy', 'privacy-policy') . '   /   ' . $node->title;
+  if ($node && !drupal_is_front_page()) {
+    $vars['breadcrumbs'] = l('College Board Privacy Policy', '/') .
+      '<span class="breadcrumb-slash">/</span>' . $node->title;
+  }
+  else {
+    $vars['breadcrumbs'] = '';
   }
 }
 
